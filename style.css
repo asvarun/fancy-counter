@@ -1,0 +1,49 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    all: unset;
+}
+
+i {
+    text-align: center;
+    width: 100%;
+}
+
+.counter-title {
+    margin-left: 160px;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.button {
+    width: 150px;
+    height: 75px;
+    background-color: #ADFF2F;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.button:focus {
+    background-color: yellowgreen;
+}
+
+.counter-value {
+    color: #1d2507;
+    font-size: 100px;
+    font-weight: 300;
+    margin: 10px 10px 10px 230px;
+}
